@@ -16,7 +16,7 @@ export default function AIIndexPage() {
         <InvestmentSteps />
         <AiIndexComponent />
         <AISection />
-        {/* <Roadmap /> */}
+                {/* <Roadmap /> */}
         <FaqSection />
         <CopyTradingBanner />
     </main>

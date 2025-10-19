@@ -114,7 +114,7 @@ const DashboardSection = () => {
           </div>
           <div className="flex justify-center mt-6">
             <img
-              src="https://i.ibb.co/JdXcqLx/market-analysis.png"
+              src="market.avif"
               alt="Market analysis"
               className="w-3/4 max-w-sm object-contain"
             />
