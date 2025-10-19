@@ -8,9 +8,6 @@ const FaqSection = () => {
     { question: "Where do I start with nomo?" },
     { question: "How many assets are available at nomo?" },
     { question: "How can I reach out to the support team?" },
-    { question: "Which deposit methods are available at nomo?" },
-    { question: "How is my personal information protected on nomo?" },
-    { question: "What measures does nomo take to ensure the security of my funds?" },
   ];
 
   const handleToggle = (index) => {
@@ -22,15 +19,14 @@ const FaqSection = () => {
 
   return (
     <section className="w-full px-4 sm:px-8 md:px-16 py-12 bg-white text-center">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
+      <h2 className="text-2xl sm:text-3xl
+      lg:4xl font-semibold text-gray-900">
         Frequently asked questions
       </h2>
-      <p className="text-gray-500 mt-2">
-        We are glad to answer your questions to start autocopy trading today
-      </p>
+
 
       {/* FAQ Grid */}
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto">
+      <div className="mt-10 grid gap-1 max-w-xl mx-auto">
         {[leftFaqs, rightFaqs].map((column, colIndex) => (
           <div key={colIndex}>
             {column.map((faq, index) => {
@@ -72,7 +68,7 @@ const FaqSection = () => {
         ))}
       </div>
 
-      <button className="mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition">
+      <button className="mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition">
         Try nomo autocopy
       </button>
     </section>
