@@ -51,7 +51,7 @@ export default function Navbar() {
   return (
     <motion.nav
       animate={{
-        width: shrink ? "180px" : "78%",
+        width: shrink ? "180px" : "85%",
         borderRadius: shrink ? "999px" : "2rem",
         backgroundColor: "rgba(247,248,252,0.85)",
         height: totalHeight,
@@ -78,7 +78,7 @@ export default function Navbar() {
 
       {/* Center nav links */}
       {!shrink && (
-        <ul className="flex items-center gap-6 text-gray-700 font-medium relative">
+        <ul className="flex items-center pt-2 gap-6 text-gray-700 font-medium relative">
           {navItems.map((item, index) => (
             <li
               key={index}
