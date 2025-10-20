@@ -30,7 +30,7 @@ const FaqSection = () => {
       </p>
 
       {/* FAQ Grid */}
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-6xl mx-auto">
         {[leftFaqs, rightFaqs].map((column, colIndex) => (
           <div key={colIndex}>
             {column.map((faq, index) => {
@@ -72,7 +72,7 @@ const FaqSection = () => {
         ))}
       </div>
 
-      <button className="mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition">
+      <button className="mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition">
         Try nomo autocopy
       </button>
     </section>

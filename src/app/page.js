@@ -3,7 +3,10 @@ import Landingpage from "./home/Landingpage";
 export default function Home() {
   return (
     <>
-    <Landingpage />
+    <div className="mt-10">
+      <Landingpage />
+    </div>
+    
     </>
   );
 }
