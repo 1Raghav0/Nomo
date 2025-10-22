@@ -1,15 +1,15 @@
 import React from 'react'
 import HeroSection from './HeroSection'
-import WhyCopyTrading from './WhyCopyTrading'
-import FaqSection from './FaqSection'
+import PaymentSection from './PaymentSection'
+import PaymentOptions from './PaymentOptions'
 import NomoBanner from './NomoBanner'
 
 const page = () => {
   return (
     <>
     <HeroSection />
-    <WhyCopyTrading />
-    <FaqSection />
+    <PaymentSection />
+    <PaymentOptions />
     <NomoBanner />
     </>
   )

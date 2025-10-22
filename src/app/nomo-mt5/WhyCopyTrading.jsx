@@ -1,11 +1,12 @@
 import React from 'react';
+import MT5AccessSection from './MT5AccessSection';
 
 const WhyCopyTrading = () => {
   return (
     <>
     <div className="container mx-auto px-6 py-20">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-blue-600 mb-4">nomo<span className="text-black">MT5 – trade with advanced tools at your fingertips</span></h1>
+        <h1 className="text-3xl font-bold text-blue-600 mb-4">nomo <span className="text-black">MT5 – trade with advanced tools at your fingertips</span></h1>
         <p className='px-5 lg:px-32'>
            MT5 gives you everything you need to trade with precision and control. Customize your charts, automate your strategies, and make data-driven decisions, all from one powerful platform. Whether you’re a seasoned trader or looking to enhance your skills, MT5 is designed to meet your needs and help you excel.
         </p>
@@ -46,6 +47,8 @@ const WhyCopyTrading = () => {
         </button>
       </div>
     </div>
+
+    <MT5AccessSection />
 
 
     <div className="bg-white py-12 px-6 md:px-16 lg:px-20 flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
