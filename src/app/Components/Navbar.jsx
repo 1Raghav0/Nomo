@@ -45,7 +45,7 @@ export default function Navbar() {
   // Determine navbar height based on dropdown state
   const baseHeight = shrink ? 60 : 68; // default height
   const dropdownHeight =
-    activeMenu !== null ? 220 : langOpen ? 120 : 0; // increase height dynamically
+    activeMenu !== null ? 300 : langOpen ? 120 : 0; // increase height dynamically
   const totalHeight = baseHeight + dropdownHeight;
 
   return (
@@ -64,7 +64,7 @@ export default function Navbar() {
       {/* Left logo */}
       <div className="flex items-center gap-2">
         <div className="flex items-center">
-          <span className="text-blue-600 font-extrabold text-2xl">m</span>
+          <span className="text-blue-600 font-extrabold text-2xl">n</span>
           <span className="text-gray-900 font-extrabold text-2xl -ml-1">m</span>
         </div>
         <span
@@ -102,9 +102,9 @@ export default function Navbar() {
                   <motion.ul
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 10 }}
+                    exit={{ opacity: 10, y: 10 }}
                     transition={{ duration: 0.25 }}
-                    className="absolute left-0 top-full mt-3 w-48 bg-[#f7f8fc]
+                    className="absolute left-0 top-full mt-3 w-48 bg-none
                                rounded-xl shadow-lg py-3 text-sm text-gray-700"
                   >
                     {item.submenu.map((sub, i) => (
@@ -149,7 +149,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
                   transition={{ duration: 0.25 }}
-                  className="absolute top-full mt-3 right-0 w-40 bg-[#f7f8fc] 
+                  className="absolute top-full mt-3 right-0 w-40
                              rounded-xl shadow-lg py-3 text-sm text-gray-700"
                 >
                   {["English", "Spanish", "German", "French"].map((lang) => (
