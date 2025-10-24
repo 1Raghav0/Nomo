@@ -35,12 +35,12 @@ export default function NomoSection() {
       {/* ======= Main Section ======= */}
       <div className="py-15 px-4 md:px-8 lg:px-16 flex flex-col items-center">
         {/* Title */}
-        <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-4 leading-tight">
+        <h1 className="text-3xl max-w-xl md:text-6xl font-extrabold text-center text-gray-900 mb-4">
           <span className="text-blue-600">nomo</span> — trading made simple
         </h1>
 
         {/* Subtitle */}
-        <p className="text-gray-500 text-center max-w-2xl mb-10">
+        <p className="text-gray-500 text-center text-2xl max-w-3xl mb-10">
           From managing your investments to copy trading other traders, nomo
           provides a seamless experience that empowers you to achieve more with
           your investments.
@@ -62,7 +62,7 @@ export default function NomoSection() {
 
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/trader.jpg"
+                src="https://nomotrade.com/_next/image?url=%2Fimages%2Fabout-us%2FtradingCard1.avif&w=1080&q=75"
                 alt="Alex Choo"
                 width={40}
                 height={40}
@@ -87,7 +87,7 @@ export default function NomoSection() {
           {/* --- Card 2 --- */}
           <div className="w-full max-w-[260px] h-[320px]">
             <Image
-              src="/https://nomotrade.com/_next/image?url=%2Fimages%2Fabout-us%2Fcard2.avif&w=1080&q=75"
+              src="https://nomotrade.com/_next/image?url=%2Fimages%2Fabout-us%2Fcard2.avif&w=1080&q=75"
               alt="Man using phone"
               width={300}
               height={300}
@@ -133,7 +133,7 @@ export default function NomoSection() {
           {/* --- Card 5 --- */}
           <div className="relative w-full max-w-[260px] h-[380px]">
             <Image
-              src="/woman-phone.jpg"
+              src="https://nomotrade.com/_next/image?url=%2Fimages%2Fabout-us%2Fcard5.avif&w=1080&q=75"
               alt="Confident trader"
               width={300}
               height={300}

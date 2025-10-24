@@ -2,7 +2,7 @@ import React from 'react';
 
 const AIComponent = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-100 to-purple-100 py-16 px-6 sm:px-12 lg:px-24">
+    <div className="bg-gradient-to-r mt-25 from-blue-100 to-purple-100 py-16 px-6 sm:px-12 lg:px-24">
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between lg:gap-30">
         <div className="lg:w-[600px]">
           <h1 className="text-4xl font-bold text-gray-900 mb-6 lg:text-5xl">

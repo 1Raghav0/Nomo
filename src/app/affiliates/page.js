@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import AffiliateSection from "./AffiliateSection";
 import NomoBanner from "./NomoBanner";
@@ -16,3 +17,22 @@ const page = () => {
 };
 
 export default page;
+=======
+import React from 'react'
+import Affiliates from '../affiliates/Affiliates'
+import TradeInvest from './TradeInvest'
+import AffiliateSteps from './AffiliateSteps'
+import LastSection from './LastSection'
+const page = () => {
+  return (
+    <>
+    <Affiliates />
+    <AffiliateSteps />
+    <TradeInvest />
+    <LastSection />
+    </>
+  )
+}
+
+export default page
+>>>>>>> ec20fa739f1bd568814eb45403f14a7136535ebe
