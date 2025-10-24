@@ -8,7 +8,7 @@ const navItems = [
   {
     name: "AI",
     submenu: [
-      { name: "nomo AI Index", slug: "/ai/nomo-ai-index" },
+      { name: "nomo AI Index", slug: "/ai-index" },
       { name: " AI Assistant", slug: "/ai-assistant" },
     ],
   },
@@ -19,11 +19,11 @@ const navItems = [
       { name: "Copytrading", slug: "/copytrading" },
       { name: "Platforms", slug: "/platforms" },
       { name: "nomo WEB", slug: "/nomo-web" },
-      { name: "nomo Android app", slug: "/nomo-android-app" },
+      { name: "nomo Android app", slug: "/android-app" },
       { name: "nomo MT5", slug: "/nomo-mt5" },
-      { name: "Deposit methods", slug: "/deposit-methods" },
-      { name: "Fees and charges", slug: "/fees-and-charges" },
-      { name: "Loyalty program", slug: "/loyalty-program" },
+      { name: "Deposit methods", slug: "/deposits-and-withdrawls" },
+      { name: "Fees and charges", slug: "/pricing" },
+      { name: "Loyalty program", slug: "/user-levels-explained" },
     ],
   },
   {
@@ -42,7 +42,7 @@ const navItems = [
     name: "Earn",
     submenu: [
       { name: "Affiliates", slug: "/affiliates" },
-      { name: "Become a lead trader", slug: "/become-lead-trader" },
+      { name: "Become a lead trader", slug: "/become-a-lead-trader" },
       { name: "Refer a friend", slug: "/refer-a-friend" },
     ],
   },

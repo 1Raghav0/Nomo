@@ -11,7 +11,7 @@ const NomoBanner = () => {
             Ready to start trading with 
             <span className='text-blue-500'> nomo?</span>
           </h2>
-          <button className="bg-white hover:bg-green-600 text-blue-500 font-bold px-5 py-3 rounded-md transition">
+          <button className="bg-white hover:bg-blue-500 hover:text-white text-blue-500 font-bold px-5 py-3 rounded-md transition">
             Create an account 
           </button>
         </div>
