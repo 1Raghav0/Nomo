@@ -40,21 +40,12 @@ const TradeInvest = () => {
   return (
     <section className="w-full bg-white py-16 px-4 md:px-10 overflow-hidden">
       {/* Top Section */}
-<<<<<<< HEAD
       <div className="text-center mb-18">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Why others choose   <span className="text-blue-600">nomo?</span>
         </h2>
         <p className="text-gray-500 mt-2">
           Trade the most popular world markets. Seamless and with no setbacks
-=======
-      <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Why others choose   <span className="text-blue-600">nomo? </span>
-        </h2>
-        <p className="text-gray-500 mt-2">
-        Trade the most popular world markets. Seamless and with no setbacks
->>>>>>> ec20fa739f1bd568814eb45403f14a7136535ebe
         </p>
       </div>
 
