@@ -8,7 +8,7 @@ const navItems = [
   {
     name: "AI",
     submenu: [
-      { name: "nomo AI Index", slug: "/ai/nomo-ai-index" },
+      { name: "nomo AI Index", slug: "/ai-index" },
       { name: " AI Assistant", slug: "/ai-assistant" },
     ],
   },
@@ -22,7 +22,7 @@ const navItems = [
       { name: "nomo Android app", slug: "/nomo-android-app" },
       { name: "nomo MT5", slug: "/nomo-mt5" },
       { name: "Deposit methods", slug: "/deposit-methods" },
-      { name: "Fees and charges", slug: "/fees-and-charges" },
+      { name: "Fees and charges", slug: "/pricing" },
       { name: "Loyalty program", slug: "/loyalty-program" },
     ],
   },
@@ -60,9 +60,9 @@ const navItems = [
         slug: "/education/trading-strategy-analysis",
       },
       { name: "Platform tutorials", slug: "/education/platform-tutorials" },
-      { name: "Economic Calendar", slug: "/education/economic-calendar" },
+      { name: "Economic Calendar", slug: "/education/calender" },
       { name: "Earnings reports", slug: "/education/earnings-reports" },
-      { name: "eBook", slug: "/education/ebook" },
+      { name: "eBook", slug: "https://assets.nomotrade.com/docs/Basics_of_online_trading_-_nomo_eBook.pdf" },
       { name: "Blog", slug: "/education/blog" },
     ],
   },
@@ -217,7 +217,7 @@ export default function Navbar() {
 
             <Link
               href="/login"
-              className="text-blue-600 text-sm font-semibold hover:underline"
+              className="text-blue-600 text-lg font-semibold hover:underline"
             >
               Log in
             </Link>
